@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="es.indytek.indyteknotes.ui.fragments.MainMenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_listaNotasFragment"
+            app:destination="@id/listaNotasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaNotasFragment"
+        android:name="es.indytek.indyteknotes.ui.fragments.ListaNotasFragment"
+        android:label="fragment_lista_notas"
+        tools:layout="@layout/fragment_lista_notas" />
+</navigation>

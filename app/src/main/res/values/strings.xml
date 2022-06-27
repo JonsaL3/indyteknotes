@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indytek Notes</string>
+    <string name="tareas">Tareas</string>
+    <string name="notas">Notas</string>
+    <string name="indytek_notes">Indytek Notes</string>
+    <string name="tu_agenda_personal_todo_en_uno">Tu agenda personal todo en uno.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seleccione_una_opci_n">Seleccione una opción:</string>
+</resources>
